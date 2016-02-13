@@ -1,0 +1,33 @@
+{
+  "name": "unoesc-app-front",
+  "version": "1.0.0",
+  "authors": [
+    "Evandro Diego Erlo"
+  ],
+  "description": "Descricao",
+  "main": "gulpfile.js",
+  "keywords": [
+    "evandro",
+    "components",
+    "javascript",
+    "angularjs"
+  ],
+  "license": "LGPL",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "report",
+    "coverage",
+    "docs"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-route": "^1.5.0",
+    "bootstrap": "^3.3.6"
+  }
+}
