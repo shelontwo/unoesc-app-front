@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="app">
 <head>
 	<meta charset="UTF-8">
 
@@ -7,10 +7,19 @@
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>
-	
+	<div ng-view>
+		
+	</div>
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script src="bower_components/angular/angular.min.js"></script>
 	<script src="bower_components/angular-route/angular-route.min.js"></script>
+	<script src="app/module.js"></script>
+	<script src="app/controller.js"></script>
+	<script src="app/constants.js"></script>
+	<script src="brewery/module.js"></script>
+	<script src="brewery/routes.js"></script>
+	<script src="brewery/service.js"></script>
+	<script src="brewery/controller.js"></script>
 </body>
 </html>
