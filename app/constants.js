@@ -3,8 +3,8 @@
 
 	angular
 		.module('app')
-		.constant('API'), {
-			url: 'http://localhost:3000/api/'
-		};
+		.constant('API', {
+			url: 'http://localhost:8081/api/'
+		});
 		
 })();
