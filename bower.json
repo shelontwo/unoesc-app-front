@@ -1,22 +1,33 @@
 {
   "name": "unoesc-app-front",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "authors": [
-    "Guilherme Siquinelli <guiseek@gmail.com>"
+    "Evandro Diego Erlo"
   ],
-  "description": "Unoesc App Front",
-  "main": "index.html",
-  "license": "MIT",
+  "description": "Descricao",
+  "main": "gulpfile.js",
+  "keywords": [
+    "evandro",
+    "components",
+    "javascript",
+    "angularjs"
+  ],
+  "license": "LGPL",
+  "homepage": "",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "src",
+    "report",
+    "coverage",
+    "docs"
   ],
   "dependencies": {
-    "angular": "~1.5.0",
-    "angular-route": "~1.5.0",
-    "bootstrap": "~3.3.6"
+    "angular": "^1.5.0",
+    "angular-route": "^1.5.0",
+    "bootstrap": "^3.3.6"
   }
 }

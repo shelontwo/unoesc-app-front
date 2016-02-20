@@ -28,7 +28,7 @@
         }
         vm.save = function(brewery) {
             if (brewery._id) {
-                BreweryService.update(brewery).then(function(response) {
+              BreweryService.update(brewery).then(function(response) {
                     vm.success = response.data;
                     vm.findAll();
                     vm.reset();
